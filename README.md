@@ -1,5 +1,5 @@
-## Show More/Less Text
-React show more/less widget allows us to truncate lengthy description based on number of lines.
+## React Line Ellipsis
+React line ellipsis widget allows us to truncate lengthy description based on number of lines with expand and collapse feature
 
 ## Features
 1.Dynamic source text can be provided.
