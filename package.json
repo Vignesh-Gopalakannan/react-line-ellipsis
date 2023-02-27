@@ -1,0 +1,36 @@
+{
+  "name": "showmorelesstext",
+  "widgetName": "ShowMoreLessText",
+  "version": "1.0.0",
+  "description": "Widget to show more or show less text based on no of lines",
+  "copyright": "2022",
+  "author": "Vignesh G",
+  "config": {
+    "projectPath": "../..//",
+    "mendixHost": "http://localhost:8082",
+    "developmentPort": "3000"
+  },
+  "packagePath": "mxtechies",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server --open",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^8.18.4",
+    "@types/big.js": "^4.0.5",
+    "@types/classnames": "^2.2.4",
+    "@types/react": "~16.9.0",
+    "@types/react-dom": "~16.9.0",
+    "@types/react-show-more-text": "^1.4.2"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react-show-more-text": "^1.6.2"
+  }
+}
